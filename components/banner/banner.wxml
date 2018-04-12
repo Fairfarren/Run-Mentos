@@ -1,0 +1,17 @@
+<!--components/banner/banner.wxml-->
+<view>
+   <swiper class="bannerBox" 
+    indicator-dots 
+    circular 
+    autoplay
+  >
+    <swiper-item 
+      class="theSmall" 
+      wx:for="{{bannerList}}" 
+      wx:for-item="item" 
+      wx:key="item.img"
+    >
+      <image src="{{item.img}}" class="bannerImage"/> 
+    </swiper-item>
+  </swiper> 
+</view>

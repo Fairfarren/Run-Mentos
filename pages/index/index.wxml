@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <view>
-  
+  <banner bannerList="{{banner}}"></banner>
 </view>

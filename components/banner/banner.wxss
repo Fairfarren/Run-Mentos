@@ -1,0 +1,9 @@
+/* components/banner/banner.wxss */
+.bannerBox {
+  height: 450rpx
+}
+.bannerImage {
+   width: 100%; 
+   height: 450rpx;
+   object-fit: cover;
+}

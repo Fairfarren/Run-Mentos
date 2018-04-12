@@ -1,12 +1,1 @@
 /**index.wxss**/
-.box {
-  width: 100%;
-  height: 100rpx;
-  border: 1px solid black;
-}
-.movab {
-  width: 100%;
-  height: 500px;
-  border: 1px solid black;
-  box-sizing: border-box;
-}
