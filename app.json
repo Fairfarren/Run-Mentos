@@ -1,24 +1,38 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/show/show",
+    "pages/mine/mine"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#32C6FF",
     "navigationBarTitleText": "Run-Mentos",
-    "navigationBarTextStyle":"#fff"
+    "navigationBarTextStyle": "#fff"
   },
   "tabBar": {
-    "list":[
+    "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "states/images/home(1).png",
+        "selectedIconPath": "states/images/home.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/show/show",
+        "text": "动态",
+        "iconPath": "states/images/iconfont-shumajiadian.png",
+        "selectedIconPath": "states/images/iconfont-shumajiadian(1).png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "states/images/wxb.png",
+        "selectedIconPath": "states/images/wxb(1).png"
       }
-    ]
+    ],
+    "selectedColor": "#32C6FF",
+    "backgroundColor": "#fff"
   }
 }
