@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "activityCom": "../activityCom/activityCom"
+    "activityCom": "../activityCom/activityCom",
+    "hotTrack": "../hotTrack/hotTrack"
   }
 }

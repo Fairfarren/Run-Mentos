@@ -1,0 +1,34 @@
+<!--components/hotTrack/hotTrack.wxml-->
+<view class="hotTrack">
+  <navigator
+    class="box"
+    wx:for="{{hotTrackList}}"
+    wx:for-item="item"
+    wx:key="{{item.img}}"
+    url="/pages/activityViews/activityViews?id={{item.id}}"
+  >
+    <view class="userSth">
+      <view class="userAva">
+        <image src="{{item.avatarUrl}}" />
+      </view>
+      <view class="userName">
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+    <view class="contentSth">
+      <view class="contentImg">
+        <image src="{{item.img}}" />
+      </view>
+      <view class="contentTitle">
+        <text>{{item.title}}</text>
+      </view>
+      <view class="contentOth">
+        <view class="left">
+          <text class="comment">123</text>
+          <text class="like">{{item.like}}赞</text>
+        </view>
+        <text class="time">{{item.time}}</text>
+      </view>
+    </view>
+  </navigator>
+</view>

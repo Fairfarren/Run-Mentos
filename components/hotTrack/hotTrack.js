@@ -1,20 +1,17 @@
-// components/hotBox/hotBox.js
+// components/hotTrack/hotTrack.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    title: String,
-    activityList: Array,
-    hotTrackList: Array,
-    theType: String
+    hotTrackList: Array
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-    list: []
+
   },
 
   /**

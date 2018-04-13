@@ -4,5 +4,6 @@
     <icon></icon>
     <text>{{title}}</text>
   </view>
-  <activityCom activityList="{{activityList}}"/>
+  <activityCom activityList="{{activityList}}" wx:if="{{theType === 'small50'}}"/>
+  <hotTrack hotTrackList="{{hotTrackList}}" wx:if="{{theType === 'small100'}}"/>
 </view>

@@ -12,7 +12,7 @@
           <image src="{{item.img}}" />
         </view>
         <view class="title">
-          <text>周末大家一起来拉连！</text>
+          <text>{{item.title}}</text>
         </view>
         <view class="people">
           <text>组织人：</text>

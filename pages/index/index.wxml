@@ -3,6 +3,15 @@
   <!-- banner  -->
   <banner bannerList="{{banner}}"></banner>
   <!-- 热门活动  -->
-  <hotBox title="热门活动" activityList="{{activityList}}"/>
+  <hotBox 
+    title="热门活动" 
+    activityList="{{activityList}}" 
+    theType="small50"
+    />
   <!-- 热门  -->
+  <hotBox 
+    title="最热动态" 
+    hotTrackList="{{hotTrackList}}" 
+    theType="small100"
+    />
 </view>

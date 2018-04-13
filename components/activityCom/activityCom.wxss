@@ -20,8 +20,11 @@
   height: 200rpx;
 }
 .small50>.title {
-  font-size: 30rpx;
+  font-size: 35rpx;
   color: #555555;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
 }
 .small50>.people {
   font-size: 25rpx;
