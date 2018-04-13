@@ -25,14 +25,17 @@
   overflow: hidden;
   text-overflow:ellipsis;
   white-space: nowrap;
+  margin-top: 8rpx;
 }
 .small50>.people {
   font-size: 25rpx;
   color: #777777;
+  margin-top: 8rpx;
 }
 .small50>.time {
   display: flex;
   justify-content: space-between;
   font-size: 25rpx;
   color: #777777;
+  margin-top: 8rpx;
 }
