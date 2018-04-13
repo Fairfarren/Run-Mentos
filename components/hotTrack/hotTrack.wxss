@@ -42,6 +42,10 @@
   font-size: 35rpx;
   color: #666666;
   margin-top: 10rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 .contentSth>.contentOth {
   display: flex;
