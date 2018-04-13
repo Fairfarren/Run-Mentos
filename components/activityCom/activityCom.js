@@ -1,26 +1,23 @@
-// components/banner/banner.js
+// components/activityCom/activityCom.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    bannerList: Array
+    activityList: Array
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-    list: [1,2,3]
+
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-    goToPath (e) {
-      const theId = e.target.dataset.id
-      console.log(theId)
-    }
+
   }
 })

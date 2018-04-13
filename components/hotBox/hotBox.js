@@ -1,26 +1,24 @@
-// components/banner/banner.js
+// components/hotBox/hotBox.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    bannerList: Array
+    title: String,
+    activityList: Array
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-    list: [1,2,3]
+    list: []
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-    goToPath (e) {
-      const theId = e.target.dataset.id
-      console.log(theId)
-    }
+
   }
 })

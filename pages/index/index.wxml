@@ -1,4 +1,8 @@
 <!--index.wxml-->
 <view>
+  <!-- banner  -->
   <banner bannerList="{{banner}}"></banner>
+  <!-- 热门活动  -->
+  <hotBox title="热门活动" activityList="{{activityList}}"/>
+  <!-- 热门  -->
 </view>

@@ -1,0 +1,8 @@
+<!--components/hotBox/hotBox.wxml-->
+<view class="hotBox">
+  <view class="title">
+    <icon></icon>
+    <text>{{title}}</text>
+  </view>
+  <activityCom activityList="{{activityList}}"/>
+</view>

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "banner": "../../components/banner/banner"
+    "banner": "../../components/banner/banner",
+    "hotBox": "../../components/hotBox/hotBox"
   }
 }

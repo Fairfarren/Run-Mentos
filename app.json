@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/show/show",
     "pages/mine/mine",
-    "pages/activity/activity"
+    "pages/activity/activity",
+    "pages/activityViews/activityViews"
   ],
   "window": {
     "backgroundTextStyle": "light",

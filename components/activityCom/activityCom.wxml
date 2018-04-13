@@ -1,0 +1,28 @@
+<!--components/activityCom/activityCom.wxml-->
+<view class="activityCom">
+  <view class="box">
+    <navigator 
+      wx:for="{{activityList}}"
+      wx:for-item="item"
+      wx:key="{{item.img}}"
+      url="/pages/activityViews/activityViews?id={{item.id}}" 
+    >
+      <view class="small50">
+        <view class="img">
+          <image src="{{item.img}}" />
+        </view>
+        <view class="title">
+          <text>周末大家一起来拉连！</text>
+        </view>
+        <view class="people">
+          <text>组织人：</text>
+          <text>{{item.people}}</text>
+        </view>
+        <view class="time">
+          <text>{{item.count}}人参加</text>
+          <text>{{item.time}}</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

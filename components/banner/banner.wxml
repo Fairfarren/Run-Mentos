@@ -11,7 +11,11 @@
       wx:for-item="item" 
       wx:key="item.img"
     >
-      <image src="{{item.img}}" class="bannerImage"/> 
+      <image
+        data-id="{{item.id}}"
+        bindtap="goToPath" 
+        src="{{item.img}}" 
+        class="bannerImage"/> 
     </swiper-item>
   </swiper> 
 </view>
